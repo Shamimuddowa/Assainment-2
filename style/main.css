@@ -19,6 +19,17 @@
     font-weight: 600;
     text-transform: uppercase;
 }
+.funny-title-h3{
+    font-size: 3rem;
+    color: #0B0223;
+    font-weight: 700;
+}
+.gamer-section-title{
+    font-size: 3rem;
+    color: #8758F1;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
 
                 /* nav section start   */
 
@@ -132,11 +143,9 @@ section li{
 .gamer-section-container{
     gap: 2rem;
 }
-.gamer-section-title{
-    font-size: 3rem;
-    color: #8758F1;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
+.gamer-section-p{
+    font-size: 1.12rem;
+    font-weight: 400;
 }
 .gamer-section-btn{
     margin-bottom: 1.5rem;
@@ -150,4 +159,87 @@ section li{
 }
 
                                       /* banner section - 2 end  */
+
+                                      /* banner section - 3 start  */
+
+.funny-videos-section{
+    padding: 50px 240px;
+}
+.funny-title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.funny-videos{
+    display: flex;
+}
+.img{
+    width: 25%;
+}
+.img1{
+    width: 90%;
+}
+.img p{
+    font-size: 1.12rem;
+}
+ 
+                                      /* banner section - 3 end  */
+
+                                      /* banner section - 4 start  */
+
+.playgames-section{
+    padding: 50px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+.playgames-section h3{
+    color: #0B0223;
+}
+.playgames-section p{
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+.funny-section-img{
+    display: flex;
+}
+.funny-img3{
+    width: 35%;
+    height: 40%;
+    position: relative;
+    top: 230px;
+    left: 110px;
+    border: 2px solid #FFF;
+}
+.funny-img4{
+    width: 75%;
+}
+
+                                    /* banner section - 4 end  */
+
+                                    /* banner section - 5 start  */
+
+.onlinegames-section{
+    padding: 50px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.online-section-img{
+    display: flex;
+    margin-right: 100px;
+}
+.online-img3{
+    width: 85%;
+}
+.online-img4{
+    width: 35%;
+    height: 40%;
+    position: relative;
+    top: 230px;
+    left: -110px;
+    border: 2px solid #FFF;
+}
 

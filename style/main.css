@@ -221,7 +221,7 @@ section li{
                                     /* banner section - 5 start  */
 
 .onlinegames-section{
-    padding: 50px 240px;
+    padding: 150px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -242,4 +242,48 @@ section li{
     left: -110px;
     border: 2px solid #FFF;
 }
+
+
+
+.Careers-section{
+    padding: 50px 240px;
+    background-color: #FF42A5;
+    display: flex;
+}
+
+.Careers-section h3{
+    color: #FFF;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.Careers-section-p{
+    color: #FFF;
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.flex{
+    display: flex;
+}
+.flex1{
+    color: #FFF;
+    font-size: 1rem;
+    text-align: left;
+}
+.flex2{
+    color: #FFF;
+    font-size: 1rem;
+    text-align: right;
+}
+.flexbtn{
+    background-color: #FFF;
+    padding: 1.25rem 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    margin-top: 30px;
+}
+
+
 

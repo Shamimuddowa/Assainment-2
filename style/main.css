@@ -2,12 +2,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* shared css file  */
 
 *{
     margin: 0px;
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+.btn1{
+    border-radius: 3rem;
+    background-color: #FF42A5;
+    padding: 1rem 2rem;
+    color: #FFF;
+    font-size: 1.25rem;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+                /* nav section start   */
+
 .logo-color{ 
     color: #FF42A5;
 }
@@ -55,13 +69,17 @@ nav ul li a{
     padding: 1rem;
 }
 
+                    /* nav section end   */
+
+                    /* banner section - 1 start  */
+
 .banner-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 240px;
 }
-section h3{
+section .banner-title{
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -88,17 +106,6 @@ section li{
     gap: 1rem;
     line-height: 2.25rem;
 }
-.btn1{
-    border-radius: 3rem;
-    background-color: #FF42A5;
-    padding: 1rem 2rem;
-    color: #FFF;
-    font-size: 1.25rem;
-    border: none;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-right: 1rem;
-}
 .btn2{
     border-radius: 3rem;
     background: #4EC5F7;
@@ -108,4 +115,39 @@ section li{
     border: none;
     font-weight: 600;
     text-transform: uppercase;
+    margin-left: 1rem;
 }
+
+                   /* banner section - 1 end  */
+
+                                      /* banner section - 2 start  */
+
+.gamer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    padding: 50px 240px;
+}
+.gamer-section-container{
+    gap: 2rem;
+}
+.gamer-section-title{
+    font-size: 3rem;
+    color: #8758F1;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.gamer-section-btn{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.gamer-section-span{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-top: 1.5rem;
+}
+
+                                      /* banner section - 2 end  */
+

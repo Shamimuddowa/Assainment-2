@@ -55,8 +55,6 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); */
     padding: 1.25rem;
     
 }
@@ -372,5 +370,134 @@ section li{
     font-size: 1rem;
     font-weight: 500;
 }
-
                                     /* Footer section end  */
+
+
+
+                            /* responsive media queries for mobile  */
+
+
+@media screen and (max-width:576px) {
+    /* header{
+        padding: 20px;
+    } */
+    .funny-videos-section {
+        padding: 20px;
+    }
+    header nav, .logo, nav ul, .banner-section, .gamer-section, .funny-videos{
+        flex-direction: column;
+    }
+    nav ul{
+        margin-top: 20px;
+        gap: 15px;
+    }
+    .icon{
+        width: 120%;
+        padding: 20px;
+    }
+    .banner-section img{
+        width: 400px;
+        position: relative;
+        top: -400px;
+    }
+    .banner-content{
+        position: relative;
+        top: 400px;
+        padding: 20px;
+        
+    }
+    .gamer-section img{
+        width: 400px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .gamer-section{
+        padding: 15px;
+        justify-content: center;
+    }
+    .funny-videos{
+        grid-template-columns: 1fr;
+    }
+    .funny-videos p{
+        padding: 20px;
+    }
+    .img1{
+        width: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 576px;) { 
+    header{
+        padding: 0px;
+    }
+
+    header nav, .logo, nav ul, .icon
+    {
+        flex-direction: column;
+    }
+
+
+    /* .logo,
+    header nav,
+    nav ul,
+    .icon
+    .banner-section
+     section li
+    .gamer-section
+    .playgames-section
+    .funny-section-img
+    .onlinegames-section
+    .online-section-img
+    .Careers-section
+    .flex
+    .games-section-container
+    .games-list
+
+    {
+        flex-direction: column;
+    } */
+}
+
+                    /* tablet or medium devices  */
+
+/* @media screen and (min-width: 576px;) and (max-width: 960px;) {
+    header{
+        padding: 20px;
+    }
+
+    header nav, .logo, nav ul, .icon, .banner-section, 
+    {
+        flex-direction: column;
+    } */
+
+
+    /* .logo,
+    header nav,
+    nav ul,
+    .icon
+    .banner-section
+     section li
+    .gamer-section
+    .playgames-section
+    .funny-section-img
+    .onlinegames-section
+    .online-section-img
+    .Careers-section
+    .flex
+    .games-section-container
+    .games-list
+
+    {
+        flex-direction: column;
+    } */
+} */
